@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: splee17/jenkins-kaniko:latest
+        image: splee17/hello-world:latest
         ports:
         - containerPort: 8080
